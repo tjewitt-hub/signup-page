@@ -45,4 +45,14 @@ button {
     margin-top: 16px;
     padding: 10px 20px;
     font: inherit;
+    display:block;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 3px solid limegreen;
+    outline-offset: 2px;
+}
+
+input:user-invalid {
+    border: 2px solid crimson;
 }
