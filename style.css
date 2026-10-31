@@ -56,3 +56,8 @@ input:focus, select:focus, textarea:focus {
 input:user-invalid {
     border: 2px solid crimson;
 }
+
+
+label#placeholder {
+    color: gray;
+}
