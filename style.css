@@ -84,3 +84,7 @@ form {
     flex-direction: column;
     gap: 4px;
 }
+
+.compare * {
+    outline: 2px dashed tomato
+}
