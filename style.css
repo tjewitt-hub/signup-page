@@ -196,3 +196,19 @@ body.dark {
 body.dark nav a {
     color: rgb(78, 169, 199);
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo h1 {
+    margin-bottom: 0;
+}
